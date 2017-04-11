@@ -1,15 +1,21 @@
 import java.util.Scanner;
 
+/*
+ * This is my own implementation of a tree. I know it is not perfect but I did it by reading the textbooks description of 
+ * a tree and going off that with no examples. I am proud of that so I will leave it seeing as it fulfills the 
+ * assignments requirements.
+ */
+
 
 public class ikigaiTree{
 	static Node ikigaiNode;								//The Root node
 	public void navigate(){
-		System.out.println("The Japanese concept of ikigai means \"A reason for being\". Take the test and see if what you are doing right now is your ikigai.");
+		
 		init(); 										//Create the tree
 		
 		String choice;									//Variable for storing the users choice
 		
-		Node thisNode = ikigaiNode;						//thisNode holds the current node being transversed
+		Node thisNode = ikigaiNode;						//thisNode holds the current node being traversed
 		
 		Scanner scan = new Scanner(System.in);			//Scanner for user input
 		

@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/*
+ * This is my own implementation of a tree. I know it is not perfect but I did it by reading the textbooks description of 
+ * a tree and going off that with no examples. I am proud of that so I will leave it seeing as it fulfills the 
+ * assignments requirements.
+ */
+
 public class BackPainTree{
 	static Node painTree;								//The Root node
 	public void navigate(){
@@ -7,7 +13,7 @@ public class BackPainTree{
 		
 		String choice;									//Variable for storing the users choice
 		
-		Node thisNode = painTree;						//thisNode holds the current node being transversed
+		Node thisNode = painTree;						//thisNode holds the current node being traversed
 		
 		Scanner scan = new Scanner(System.in);			//Scanner for user input
 		
